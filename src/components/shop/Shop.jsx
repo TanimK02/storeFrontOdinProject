@@ -1,5 +1,4 @@
 import { useOutletContext } from 'react-router';
-import cartImg from './card/cart.svg'
 import styles from "./shop.module.css"
 import Card from './card/card';
 import { useEffect, useState } from 'react';
