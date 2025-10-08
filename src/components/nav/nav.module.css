@@ -1,0 +1,37 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.bag {
+    width: 30px;
+}
+
+.secondDiv {
+    display: flex;
+    align-items: center;
+}
+
+.storeName {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.a {
+    font-size: 1.1rem;
+    margin-left: 2rem;
+    padding: 0.5rem 0.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+
+.underline {
+
+    border-bottom: 2px solid black;
+}

@@ -1,0 +1,158 @@
+.container {
+    padding: 1rem 1.5rem;
+    background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
+    height: 100%;
+}
+
+.listContainer {
+    background-color: white;
+    border-radius: 8px;
+    padding-bottom: 1.875rem;
+}
+
+.arrow {
+    width: 17px;
+    margin-right: 0.5rem;
+}
+
+.card {
+    border-bottom: 1px solid #e5e7eb;
+    padding: 1.875rem;
+    display: flex;
+}
+
+.cardImg {
+    height: 100px;
+    min-width: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.yourCart {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.875rem;
+    font-weight: 700;
+}
+
+.title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.totalContainer {
+    padding: 1.875rem;
+}
+
+.subtotalContainer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.extra {
+    color: rgb(107 114 128 / var(--tw-text-opacity, 1));
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.checkout {
+    display: block;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0.875rem 0;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+.continue {
+    color: rgb(75 85 99 / var(--tw-text-opacity, 1));
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    justify-content: center;
+}
+
+.quantContainer {
+    margin-left: auto;
+}
+
+.title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.price {
+    color: rgb(107 114 128 / var(--tw-text-opacity, 1));
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
+}
+
+.buttonContainer {
+    display: flex;
+    border: 1px solid rgb(209 213 219 / var(--tw-border-opacity, 1));
+    width: fit-content;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.buttonContainer button {
+    font-size: 1.3rem;
+    border: none;
+    padding: 0.4rem 0.7rem;
+    background-color: transparent;
+    display: flex;
+}
+
+.buttonContainer p {
+    margin: 0 1.2rem;
+}
+
+.buttonContainer button:hover {
+    cursor: pointer;
+    background-color: #e5e7eb;
+}
+
+.quantContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.removeButton {
+    color: red;
+    border: none;
+    background-color: transparent;
+    font-size: 0.9rem;
+    margin-top: -0.2rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+
+}
+
+.removeButton:hover {
+    cursor: pointer;
+    filter: brightness(80%);
+}
+
+.trash {
+    margin-right: 0.2rem;
+
+}
+
+.quantPrice {
+    margin-left: auto;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
