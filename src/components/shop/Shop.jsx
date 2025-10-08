@@ -1,6 +1,6 @@
 import { useOutletContext } from 'react-router';
 import styles from "./shop.module.css"
-import Card from './card/card';
+import Card from './card/Card.jsx';
 import { useEffect, useState } from 'react';
 
 export default function Shop() {

@@ -2,7 +2,7 @@ import { useOutletContext } from "react-router";
 import styles from "./cartlist.module.css"
 import { Link } from "react-router";
 import arrow from "./leftArrow.svg"
-import Card from "./card/Card";
+import Card from "./card/Card.jsx";
 import { useState, useEffect } from "react";
 export default function CartList() {
     const [cart, setCart] = useOutletContext();
